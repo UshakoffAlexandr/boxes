@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addBox, removeBox } from './features/boxSlice';
+import { addBox, removeBox } from './components/features/boxSlice';
 import styled, { keyframes } from 'styled-components';
 
 //Контейнер по центру
